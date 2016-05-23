@@ -1,0 +1,64 @@
+/* Aleksey Skubaev
+
+askubaev@gmail.com
+icq - 322253350
+Разработка шаблонов для DLE и кроссбраузерная верстка
+------------------
+Главные стили. Внешний вид Вкладок.
+*/
+/*body {
+	padding: 50px;
+	margin: 0;
+	background: #fff;
+	text-align: left;
+	font: 12px Arial;
+	color: #fff;
+}
+
+h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+}*/
+
+
+	
+.index-tabs span {
+	cursor: pointer;
+	margin: 0 2px 0 0;
+	float: left;
+	padding: 10px 15px 10px 15px;
+	background: #f9f9f9;
+	color: #808080;
+	border: 1px #ccc solid;
+	border-bottom: 0;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+}
+	
+.tt-panel {
+	display: none;
+	background: #e1e1e1;
+	
+	padding: 10px;
+/*	width: 400px;*/
+	color: #000;
+	clear: both;
+	border: 1px #ccc solid;
+	border-top: 0;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+
+.active-ttab {
+	color: #000 !important;
+	background: #e1e1e1 !important;
+}
+
+.active-ttab2 {
+	color: green;
+	background: #e1e1e1 !important;
+}
